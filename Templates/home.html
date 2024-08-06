@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+       body {
+            background-image: url("{% static 'home_image.jpeg' %}");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body style="text-align:center;">
+<form action="predict">
+    <h1>LoanAssure</h1>
+    <input type="submit" value="Start">
+</form>
+
+</body>
+</html>
